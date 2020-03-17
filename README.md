@@ -9,3 +9,4 @@ Classification Class - This class is for classification problems. The below mode
 - K Nearest Neighbors
 - Logistic regression
 - Decision Trees
+- Random Forest
