@@ -10,3 +10,4 @@ Classification Class - This class is for classification problems. The below mode
 - Logistic regression
 - Decision Trees
 - Random Forest
+- Neural Networks
