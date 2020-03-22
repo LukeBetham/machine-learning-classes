@@ -40,6 +40,8 @@ test_model.MLP_Neural_Net()
     - test_model.gridsearch() - automatically runs a gridsearch on your current selected model. Returns model_grid model with best parameters. Has default parameters for each model type, but you can set your own by passing a dict into params = {}. When you print out the results before running gridsearch it will give you a good estimate of how long the gridsearch will take in minutes.
     - test_model.matrix_n_graphs() - will print out a pretty confusion matrix and if possible will print out a ROC curve and a precision recall curve for you to further be able to analyse your model. 
 - The class includes an option to save every model which is run into a dataframe. This will be assigned to a global variable called model_tracker so that it can then be used outside of the dataframe. This is very useful in keeping track of all of your models, and keeps track of how long they take to run and all of the scores. 
+- There is a demo file in the repo which shows what the class looks like in action on a spam dataset. 
+Please feel free to reach out to me with any comments and ideas for improvements!
 
 #### Docstring for the Classification class:
 """A class which automatically does all classification models and gridsearches for you (logisitic default). 
@@ -58,7 +60,7 @@ Other options:
     Go to readme for further information: https://github.com/LukeBetham/machine-learning-classes/blob/master/README.md
     Created by LukeBetham"""
 
-### Regression Class (work in progress) 
+## Regression Class (work in progress) 
 This class focuses on linear regression and is to be used for predicting continuous variables. The below algorithms are included:
 - Linear
 - ...
