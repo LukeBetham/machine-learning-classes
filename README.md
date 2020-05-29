@@ -61,8 +61,6 @@ Other options:
     Created by LukeBetham"""
 
 ## Regression Class (work in progress) 
-This class focuses on linear regression and is to be used for predicting continuous variables. The below algorithms are included:
-- Linear
-- ...
+This class focuses on linear regression and is to be used for predicting continuous variables. It is still a work in progress and will be updated soon!
 
 
